@@ -1,19 +1,17 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entry point.
+ * print_alphabet - prints small case alphabets.
  *
- * Returns: Always 0.
+ * Returns: Always void.
  */
 
-void print_alphabet(void);
-
-int main(void)
+void print_alphabet(void)
 {
 char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 putchar(ch);
 putchar('\n');
-return (0);
+return;
 
 }
